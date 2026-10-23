@@ -1,3 +1,7 @@
 node_modules/
 .env*
 *.log
+media/*.wav
+media/frames/
+media/segments/
+media/concat.tmp

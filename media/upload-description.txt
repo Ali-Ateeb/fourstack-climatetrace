@@ -1,0 +1,8 @@
+ClimateTrace — FourStack | IEEE ClimateChain Demo
+
+Working prototype: https://ali-ateeb.github.io/fourstack-climatetrace/
+Source and run instructions: https://github.com/Ali-Ateeb/fourstack-climatetrace
+
+Seal small environmental observation logs and compare them against a separately retained SHA-256 fingerprint. Three demo readings and all sites are invented. This is a local data-integrity proof of concept, not a public blockchain, sensor validation, carbon accounting or proof of climate impact. A rebuilt chain can pass unless compared with an independently trusted original root. No integrated AI model or public anchoring.
+
+This demonstration is an edited walkthrough of actual browser captures with synthetic Windows text-to-speech narration. It is not a continuous recording. Codex assisted with implementation, tests, documentation and production. New application work October 23, 2026. Seven narrow core tests and actual browser flows/download passed. Transcript and timed captions are included in the repository.
