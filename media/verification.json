@@ -3,6 +3,17 @@
   "bytes": 4369501,
   "sha256": "746ecd19d1bc5e1e48bbded52e7e46830b4972d55c1cd303910711642c2221e8",
   "complete_decode_passed": true,
-  "youtube_uploaded": false,
-  "production": "Edited actual browser captures, invented readings, synthetic Windows narration; Codex assistance disclosed."
+  "youtube_uploaded": true,
+  "production": "Edited actual browser captures, invented readings, synthetic Windows narration; Codex assistance disclosed.",
+  "youtube_url": "https://youtu.be/RtdXDq2rDpk",
+  "confirmation": "Video published",
+  "visibility": "unlisted",
+  "public_playback": {
+    "currentTime": 8.35458,
+    "duration": 255.661,
+    "readyState": 4,
+    "paused": false,
+    "error": null
+  },
+  "captions": "English (United States) by you track saved in Studio; initial public player reported unavailable."
 }

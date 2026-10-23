@@ -10,7 +10,14 @@
     "duplicate ID rejected"
   ],
   "root": "230065bba86ea54d53a4dd5b66ceb1990dc7e96de983b39f3b7a5348fdc019ed",
-  "public_deployment_verified": false,
-  "draft_created": false,
-  "project_submitted": false
+  "public_deployment_verified": true,
+  "draft_created": true,
+  "project_submitted": false,
+  "project_members": [
+    "member-4",
+    "member-3"
+  ],
+  "requested_team_joined": true,
+  "software_id": 1501425,
+  "submission_id": 1255866
 }
