@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {seal,verify,normalize,example} from '../core.js';
+test('deterministic chain and anchored verification',async()=>{const a=await seal(example());assert.deepEqual(a,await seal(example()));assert.equal((await verify(a,a.root)).count,3);});
+test('changed value without recomputing hash fails',async()=>{const a=await seal(example());a.records[0].data.value++;await assert.rejects(verify(a),/Integrity mismatch at reading 1/);});
+test('removal, reordering and suffix truncation fail with original root',async()=>{const a=await seal(example());const root=a.root;a.records.reverse();await assert.rejects(verify(a,root),/Sequence/);const b=await seal(example().slice(0,2));await assert.rejects(verify(b,root),/Independent root mismatch/);});
+test('full rewrite passes without trusted anchor but fails with original anchor',async()=>{const old=await seal(example()),changed=example();changed[0].value=999;const rewritten=await seal(changed);assert.equal((await verify(rewritten)).anchored,false);await assert.rejects(verify(rewritten,old.root),/Independent root mismatch/);});
+test('validate dates, units, numeric bounds and unique IDs',async()=>{for(const patch of [{timestamp:'2026-02-30T00:00:00.000Z'},{unit:'CO2'},{metric:'unknown'},{value:Infinity},{value:-1},{site:''}])assert.throws(()=>normalize({...example()[0],...patch}));await assert.rejects(seal([example()[0],example()[0]]),/Duplicate/);});
+test('reject malformed envelope, hash and oversized logs',async()=>{await assert.rejects(seal([]));await assert.rejects(seal(Array(1001).fill(example()[0])));const a=await seal(example());a.root='abc';await assert.rejects(verify(a),/Invalid bundle root/);});
+test('reject changed previous pointer and extra observation fields',async()=>{const a=await seal(example());a.records[1].previous='f'.repeat(64);await assert.rejects(verify(a),/Integrity mismatch/);const b=await seal(example());b.records[0].data.ignored='extra';await assert.rejects(verify(b),/Noncanonical/);});
