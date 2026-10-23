@@ -1,6 +1,6 @@
 # ClimateTrace / IEEE ClimateChain
 
-Ready draft: https://devpost.com/submit-to/29114-ieee-climatechain-global-hackathon/manage/submissions/1255866-climatetrace/finalization
+Submitted entry editor: https://devpost.com/submit-to/29114-ieee-climatechain-global-hackathon/manage/submissions/1255866-climatetrace/finalization
 
 Preview: https://devpost.com/software/climatetrace
 
@@ -10,8 +10,8 @@ Current team: Ali Ateeb and Ali Zulfikar. Anas and Obaidullah have not joined th
 - Source: https://github.com/Ali-Ateeb/fourstack-climatetrace
 - Unlisted 4:16 demo: https://youtu.be/RtdXDq2rDpk
 - Seven core tests and real browser flows/export pass.
-- Title, pitch, full story with track and AI disclosure, JavaScript tag, links, two screenshots and required ZIP are saved. Draft 4/5.
-- Final agreement unchecked; not submitted.
+- Title, pitch, full story with track and AI disclosure, JavaScript tag, links, two screenshots and required ZIP are saved. Final submission confirmed October 23, 2026.
+- Final agreement accepted after explicit action-time approval; Devpost returned Project submitted! October 23, 2026.
 - Deadline: **October 25, 2026, 19:00 Pakistan time**.
 
 Local SHA-256 evidence chain; no public blockchain, author signatures, external timestamp, AI model, sensor validation or measured climate impact. Trusted independent original root needed to detect a full rewritten chain.

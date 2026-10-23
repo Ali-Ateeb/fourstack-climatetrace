@@ -1,8 +1,8 @@
 {
   "title": "ClimateTrace",
-  "status": "draft_ready_final_agreement_pending",
-  "checked_at": "2026-10-23T07:00:04.035450+00:00",
-  "project_submitted": false,
+  "status": "submitted",
+  "checked_at": "2026-10-23T07:01:24.390172+00:00",
+  "project_submitted": true,
   "repository_url": "https://github.com/Ali-Ateeb/fourstack-climatetrace",
   "demo_url": "https://ali-ateeb.github.io/fourstack-climatetrace/",
   "video_url": "https://youtu.be/RtdXDq2rDpk",
@@ -21,11 +21,9 @@
     "member-1",
     "member-2"
   ],
-  "verification": "Seven core tests pass; actual browser sealing, trusted-root match, tamper failure, missing-root warning, root mismatch, duplicate rejection and stale-seal hiding verified. Real JSON export inspected. Public deployment works. 4:16 actual-capture demo passed complete audio/video decode and real public YouTube playback (8.354s, readyState 4, no error). Studio saved English track; public caption availability initially pending. Devpost preview embeds the correct video, saved source/app links, clean story, JavaScript tag and two real screenshots. Required ZIP saved and read back. Both Ali members joined. Final review Draft 4/5; agreement unchecked.",
-  "blockers": [
-    "Final ClimateChain agreement and project submission await user action-time confirmation."
-  ],
-  "final_submission_receipt": null,
+  "verification": "Seven core tests pass; actual browser sealing, trusted-root match, tamper failure, missing-root warning, root mismatch, duplicate rejection and stale-seal hiding verified. Real JSON export inspected. Public deployment works. 4:16 actual-capture demo passed complete audio/video decode and real public YouTube playback (8.354s, readyState 4, no error). Studio saved English track; public caption availability initially pending. Devpost preview embeds the correct video, saved source/app links, clean story, JavaScript tag and two real screenshots. Required ZIP saved and read back. Both Ali members joined. Final review Draft 4/5; agreement unchecked. User explicitly approved final IEEE agreement at action time; box accepted and Submit project clicked once. Devpost returned Project submitted! October 23. Current submitted team is Ali Ateeb and Ali Zulfikar.",
+  "blockers": [],
+  "final_submission_receipt": "Devpost Project submitted! October 23, 2026; submission 1255866-climatetrace.",
   "source_zip": "ClimateTrace-source-2026-10-23.zip",
   "track": "Climate Data & Environmental Monitoring",
   "limitations": "Local SHA-256 evidence chain; no public blockchain, author signatures, external timestamp, AI model, sensor validation or measured climate impact. Trusted independent original root needed to detect a full rewritten chain."

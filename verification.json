@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T06:41:59.108787+00:00",
+  "checked_at": "2026-10-23T07:01:24.390172+00:00",
   "core_tests": 7,
   "browser": [
     "invented sample sealed",
@@ -12,12 +12,13 @@
   "root": "230065bba86ea54d53a4dd5b66ceb1990dc7e96de983b39f3b7a5348fdc019ed",
   "public_deployment_verified": true,
   "draft_created": true,
-  "project_submitted": false,
+  "project_submitted": true,
   "project_members": [
     "member-4",
     "member-3"
   ],
   "requested_team_joined": true,
   "software_id": 1501425,
-  "submission_id": 1255866
+  "submission_id": 1255866,
+  "confirmation": "Project submitted!"
 }
